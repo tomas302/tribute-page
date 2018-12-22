@@ -1,6 +1,6 @@
 # Tribute Page
 
-A simple webpage that uses plain HTML and CSS to make a tribute to Nelson Mandela.
+A simple web page that uses plain HTML and CSS to make a tribute to Nelson Mandela.
 
 The idea for this project is part of the [freeCodeCamp curriculum](https://learn.freecodecamp.org/).
 
