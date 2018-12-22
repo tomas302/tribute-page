@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  margin: 3% 10% 0 10%;
+  background-color: #808080;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  background-color: #FFFFFF;
+  padding: 30px 30px 60px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  background-color: #D0D0D0;
+  border-radius: 4px;
+  padding: 7px;
+  width: 60%;
+  box-shadow: 9px 10px 28px 0px rgba(0,0,0,0.75);
+  margin-bottom: 50px;
+}
+
+#img-div {
+  padding: 0 20% 5% 20%;
+}
+
+#image {
+  margin-top: 30px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img-caption {
+  padding-top: 15px;
+  padding-bottom: 4px;
+  background-color: #E0E0E0;
+}
+
+#tribute-info {
+  padding-bottom: 10px;
+  width: 50%;
+  list-style-position: inside;
+  text-align: justify;
+  background-color: #A5A5A5;
+  padding: 9px;
+  border-radius: 3%;
+
+}
+
+.year {
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  color: red;
+  text-decoration: none;
+}
