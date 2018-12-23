@@ -23,7 +23,7 @@ body {
 }
 
 #img-div {
-  padding: 0 20% 5% 20%;
+  padding: 0 5% 5% 5%;
 }
 
 #image {
@@ -40,13 +40,12 @@ body {
 }
 
 #tribute-info {
-  padding-bottom: 10px;
-  width: 50%;
+  width: 90%;
   list-style-position: inside;
   text-align: justify;
   background-color: #A5A5A5;
-  padding: 9px;
-  border-radius: 3%;
+  padding: 4px;
+  padding-bottom: 10px;
 
 }
 
@@ -54,7 +53,34 @@ body {
   font-weight: bold;
 }
 
+#tribute-link {
+  margin-top: 15px;
+}
+
 #tribute-link:hover {
   color: red;
   text-decoration: none;
+}
+
+
+@media (max-width: 1024px) {
+  body {
+    margin: 3%;
+  }
+
+  #main {
+    padding: 10px;
+  }
+
+  #title {
+    width: 85%;
+  }
+
+  #tribute-info {
+    text-align: left;
+  }
+
+  #tribute-info ul {
+    padding: 0px 3px 0px 5px;
+  }
 }
